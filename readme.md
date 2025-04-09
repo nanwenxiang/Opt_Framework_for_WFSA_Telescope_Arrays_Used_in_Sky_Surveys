@@ -4,7 +4,7 @@ This repository contains the computational framework designed for optimizing wid
 
 ## File Descriptions
 
-- **violence_search_by_ZEMAX_ori.m**: This is the interactive brute-force search script within the framework. It interacts with ZEMAX to obtain PSF (Point Spread Function) simulated imaging signal-to-noise ratios and calculates the cost of the array configuration.
+- **violence_search_by_ZEMAX_ori.m**: This is an interactive brute-force search script within the framework. It interacts with ZEMAX to obtain the PSF (Point Spread Function) under different fields of view for different telescope designs for simulated imaging and calculates its imaging signal-to-noise ratio. Based on scientific observation requirements, it can calculate the required minimum exposure time and the number of telescope system units to compute the cost of the telescope array configuration.
 
 - **information_collection.m**: This script is designed for collecting training data for the BP neural network based on interactive searches. It gathers data within a certain range corresponding to the telescope and other configurations, which will be used for neural network fitting of the signal-to-noise ratio.
 
